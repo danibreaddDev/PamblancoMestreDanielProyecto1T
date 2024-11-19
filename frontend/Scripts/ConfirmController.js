@@ -22,7 +22,7 @@ function CreateConfirm(data) {
                                     <h3 class="fs-3">${dirEntrega}</h3>
                                     </div>
                                     <div class="row mb-5">
-                                        <div class="col-6">
+                                        <div class="col-12 col-md-6">
                                            <div class="card w-75 highligth">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Bank Transfer</h5>
@@ -31,7 +31,7 @@ function CreateConfirm(data) {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-12 col-md-6">
                                             <div class="card w-75">
                                                 <div class="card-body">
                                                     <h5 class="card-title">More</h5>
