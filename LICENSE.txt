@@ -1,0 +1,9 @@
+MIT License
+
+Copyright (c) 2024  Daniel Pamblanco Mestre
+
+Se concede permiso, sin costo alguno, a cualquier persona que obtenga una copia de este software y los archivos asociados a este proyecto, para usarlo, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y permitir a las personas a quienes se les proporcione el Software hacer lo mismo, bajo las siguientes condiciones:
+
+- El aviso de copyright y este aviso de permiso deben incluirse en todas las copias o partes sustanciales del Software.
+- El software se proporciona "tal cual", sin garantía de ningún tipo, expresa o implícita, incluyendo pero no limitado a las garantías de comerciabilidad, idoneidad para un propósito particular y no infracción. En ningún caso los autores o titulares de los derechos de autor serán responsables por cualquier reclamo, daño o cualquier otra responsabilidad, ya sea en una acción de contrato, agravio o de otro tipo, que surja de, fuera de o en conexión con el software o el uso u otros tratos en el software.
+
