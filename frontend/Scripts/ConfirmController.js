@@ -26,7 +26,7 @@ function CreateConfirm(data) {
                                            <div class="card w-75 highligth">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Bank Transfer</h5>
-                                                    <p class="card-text">Easily make secure transfers to accounts worldwide. Please ensure you have the correct recipient account details and double-check the transaction amount. Transfers may take 1-3 business days to process, depending on your bank and the destination country..</p>
+                                                    <p class="card-text subtitle">Easily make secure transfers to accounts worldwide. Please ensure you have the correct recipient account details and double-check the transaction amount. Transfers may take 1-3 business days to process, depending on your bank and the destination country..</p>
                                                    
                                                 </div>
                                             </div>
@@ -35,7 +35,7 @@ function CreateConfirm(data) {
                                             <div class="card w-75">
                                                 <div class="card-body">
                                                     <h5 class="card-title">More</h5>
-                                                    <p class="card-text">Other payments.</p>
+                                                    <p class="card-text subtitle">Other payments.</p>
                                                     
                                                 </div>
                                             </div>
