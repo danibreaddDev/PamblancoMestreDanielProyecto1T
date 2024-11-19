@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Permanent+Marker&display=swap');
+
+body {
+    font-family: "Bangers", system-ui;
+    font-style: normal;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/*barra de busqueda*/
+.busqueda input:focus {
+    border: 2px solid #69E277;
+}
+
+.btn-outline-success:hover {
+    background: #69E277;
+}
+
+.btn-outline-secondary:hover  {
+    background: #131D05;
+}
+
+/*item menu*/
+.item:hover {
+    background: #69E277;
+
+}
+
+.item:hover a {
+    color: white;
+}
+
+/*Imagen principal*/
+.img-principal img {
+    width: 250px;
+}
+
+/*best Product*/
+.best {
+    max-width: 200px;
+}
+.subtitle{
+    color: grey;
+    font-style: normal;
+}
+
+.avatar[noprofile] {
+    background: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+
+}
+
+.compra-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.compra-div div {
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    width: 100px;
+    border-radius: 5px;
+}
+
+
+
+
+/*cantidad detalles producto*/
+.cantidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.cantidad button {
+    border: 1px solid #DEE2E6;
+    border-radius: 100%;
+    background: none;
+}
+
+.cantidad button:hover {
+    border: 1px solid black;
+
+}
+
+/*Formulario*/
+.card,
+.formulario {
+    max-width: 400px;
+    width: 100%;
+}
+
+
+
+.form-label {
+    font-weight: bold;
+    color: #8AD72B
+}
+
+
+
+.input-group input {
+    border: 2px solid #131D05;
+}
+
+/*PAYMENT*/
+.highligth{
+    border: 2px green solid;
+}
+
+
+/*Tip*/
+@media (max-width:576px) {
+    .compra-div {
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cantidad {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:768px) {
+    .img-principal img {
+        width: 350px;
+    }
+
+    .best {
+        max-width: 500px;
+    }
+
+    .compra-div {
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+}
+
+@media (min-width:993px) {
+    .img-principal img {
+        width: 450px;
+    }
+
+}
+
+@media (min-width:1201px) {
+    .img-principal img {
+        width: 550px;
+    }
+}
+
+@media (min-width:993px) and (max-width:1400px) {
+    .product {
+        width: 450px;
+    }
+}
